@@ -1,0 +1,13 @@
+spring:
+  datasource:
+     driver-class-name: com.mysql.jdbc.Driver
+     url: jdbc:mysql://127.0.0.1:3306/test
+     username: root
+     password: t123456
+  jpa:
+    hibernate:
+      ddl-auto: update  # create每次运行都删除原有表创建新表,update不用每次创建新表
+    show-sql: true # 打印SQL语句
+mybatis:
+  typeAliasesPackage: com.lyao.practice.springbootjpa.domain
+  mapperLocations: classpath:mapper/*.xml
