@@ -1,4 +1,4 @@
-package com.lyao.practice.springbootjpa.domain;
+package com.lyao.practice.springbootjpa.domain.jpa;
 
 import javax.persistence.*;
 

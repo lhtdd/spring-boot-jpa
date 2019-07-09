@@ -1,6 +1,6 @@
 package com.lyao.practice.springbootjpa.dao.jpa;
 
-import com.lyao.practice.springbootjpa.domain.Student;
+import com.lyao.practice.springbootjpa.domain.jpa.Student;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**

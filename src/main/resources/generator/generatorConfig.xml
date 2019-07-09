@@ -25,7 +25,7 @@
         </sqlMapGenerator>
 
         <!-- 生成DAO接口的包名和位置-->
-        <javaClientGenerator type="com.lyao.practice.springbootjpa.dao" targetPackage="src/main/java" targetProject="src">
+        <javaClientGenerator type="XMLMAPPER" targetPackage="com.lyao.practice.springbootjpa.dao" targetProject="src/main/java">
             <property name="enableSubPackages" value="true"/>
         </javaClientGenerator>
 
